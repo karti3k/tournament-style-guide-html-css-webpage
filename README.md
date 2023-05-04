@@ -11,5 +11,4 @@ SCREENSHOT-3
 ![Screenshot (196)](https://user-images.githubusercontent.com/97697722/236296666-949010c2-6f89-488c-96ea-ad33082ae45f.png)
 
 SCREENSHOT-4 (ON MOBILE)
-![WhatsApp Image_2023-05-04 at 23 29 49](https://user-images.githubusercontent.com/97697722/236299143-a1d94744-caa5-437e-a16b-f926b6a2f963.jpg)
-
+![WhatsApp_Image_2023-05-04 at 23 29 49](https://user-images.githubusercontent.com/97697722/236299698-7a09a7f6-1d39-4f73-8221-c516bdcfbd57.jpg)
