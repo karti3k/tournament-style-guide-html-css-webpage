@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    /* background-color: black; */
+}
+.Heading{
+    background-image: linear-gradient(#000000, #7d12ff);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo1{
+    content:url(/Images/LOGO.png);
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2.0rem;
+}
+.Text1{
+    font-family: 'Archivo Black';
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.784);
+    line-height: rem;
+    margin-top: 5rem;
+}
+/* .logo2{
+    content: url(/Images/joystick-xxl.png);
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1.8rem;
+} */
+.Theme_heading{
+    font-family: 'Archivo Black';
+    color: rgba(215, 119, 224, 0.784);
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+body{
+    background-image: url(/Images/back4.jpg);
+    background-size: 100% 113rem;
+}
+.Themes{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    margin: 2rem;
+    margin-top: 0;
+    padding: 4em;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    border: 0.5em solid #7d12ff ;
+    background: #000000;
+    background-color: transparent;
+    line-height: 3rem;
+    text-align: justify;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.AllText{
+    text-align: center;
+}
+.Rules{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    margin: 2rem;
+    margin-top: 0;
+    padding: 4em;
+    border: 0.5em solid #7d12ff ;
+    background: #000000;
+    background-color: transparent;
+    line-height: 2rem;
+    text-align: justify;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.RUles_heading{
+    font-family: 'Archivo Black';
+    color: rgba(215, 119, 224, 0.784);
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.Evaluation_Criteria_heading{
+    font-family: 'Archivo Black';
+    color: rgba(215, 119, 224, 0.784);
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.Criteria{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    margin: 2rem;
+    margin-top: 0;
+    padding: 4em;
+    border: 0.5em solid #7d12ff ;
+    background: #000000;
+    background-color: transparent;
+    line-height: 3rem;
+    text-align: justify;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.Button_heading{
+    font-family: 'Archivo Black';
+    color: rgba(215, 119, 224, 0.784);
+    font-size: 2rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+button{
+    padding: 1rem;
+}
+@media (min-width: 1201px)
+{
+    html{
+        font-size: 95%;
+        }
+}
+/* For smaller laptops */
+@media (max-width:1200px) and (min-width: 1025px)
+{
+    html{
+        font-size: 75%;
+        }
+}
+/* For ipad */
+@media (max-width:1024px) and (min-width: 769px)
+{
+    html{
+        font-size: 55%;
+        }
+}
+
+@media (max-width:768px) and (min-width: 481px)
+{
+    html{
+        font-size: 35%;
+    }
+}
+@media (max-width:480px) and (min-width: 320px)
+{
+    .Theme_heading{
+        font-size: 2rem;
+    }
+    .Text1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .Themes{
+        font-size: 16px;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 2em;
+    }
+    .Rules{
+        font-size: 16px;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 2em;
+    }
+    .Criteria{
+        font-size: 16px;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 2em;
+    }
+    .Evaluation_Criteria_heading{
+        font-size: 1.8rem;
+    }
+}
