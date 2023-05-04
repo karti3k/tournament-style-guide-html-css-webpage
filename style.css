@@ -13,7 +13,7 @@
     justify-content: center;
 }
 .logo1{
-    content:url(/Images/LOGO.png);
+    content:url(./Images/LOGO.png);
     width: 4rem;
     height: 4rem;
     margin-top: 2.0rem;
@@ -40,7 +40,7 @@
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 body{
-    background-image: url(/Images/back4.jpg);
+    background-image: url(./Images/back4.jpg);
     background-size: 100% 113rem;
 }
 .Themes{
