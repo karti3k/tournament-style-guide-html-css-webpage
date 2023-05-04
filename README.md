@@ -2,3 +2,4 @@
 This project was about building a web page using HTML & CSS only! These web pages can be created quickly and can be helpful when there is an urgent need of a decent looking page that can share the information with the participamts about the tournment or rules or schedules for the upcoming competition & can act as a link to the registration form with some extra details. A litle focus on the design was also made where i tried to give it a different vibe and most importantly made it responsive using media query so that participants can open this page on their respective smartphones & fill up the form before it gets too late! The link of the registration form will open up by clicking on the button which is given at the bottom of the page, it can be done by simply linking any google form usisng anchor tag in HTML.
 
 SCREENSHOT-1 (ON PC)
+![Screenshot (194)](https://user-images.githubusercontent.com/97697722/236295430-c29e1d8f-6da0-4e05-beed-447746581bef.png)
