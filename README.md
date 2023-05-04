@@ -3,3 +3,6 @@ This project was about building a web page using HTML & CSS only! These web page
 
 SCREENSHOT-1 (ON PC)
 ![Screenshot (193)](https://user-images.githubusercontent.com/97697722/236295728-fb6d516b-cbc6-4bf2-bc78-e1355c71e365.png)
+
+SCREENSHOT-2
+![Screenshot (194)](https://user-images.githubusercontent.com/97697722/236296278-a446150f-45da-4915-b597-d29fe5a4db56.png)
