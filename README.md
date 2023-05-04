@@ -4,10 +4,10 @@ This project was about building a web page using HTML & CSS only! These web page
 SCREENSHOT-1 (ON PC)
 ![Screenshot (193)](https://user-images.githubusercontent.com/97697722/236295728-fb6d516b-cbc6-4bf2-bc78-e1355c71e365.png)
 
-SCREENSHOT-2
+SCREENSHOT-2 (ON PC)
 ![Screenshot (195)](https://user-images.githubusercontent.com/97697722/236296936-e90208d6-fea9-402d-ba4e-4f5611d157ee.png)
 
-SCREENSHOT-3
+SCREENSHOT-3 (ON PC)
 ![Screenshot (196)](https://user-images.githubusercontent.com/97697722/236296666-949010c2-6f89-488c-96ea-ad33082ae45f.png)
 
 SCREENSHOT-4 (ON MOBILE)
