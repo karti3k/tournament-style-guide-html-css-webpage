@@ -1,10 +1,13 @@
+/* CSS reset */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     margin-bottom: 1.5rem;
-    /* background-color: black; */
 }
-.Heading{
+
+/* style for the top nav bar  */
+.TopNavBar{
     background-image: linear-gradient(#000000, #7d12ff);
     width: 100%;
     height: 5rem;
@@ -12,116 +15,100 @@
     align-items: center;
     justify-content: center;
 }
+
+/* style for the logo of the top nav bar */
 .logo1{
     content:url(./Images/LOGO.png);
     width: 4rem;
     height: 4rem;
     margin-top: 2.0rem;
 }
+
+/* style for the Main heading of the top nav bar */
 .Text1{
     font-family: 'Archivo Black';
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.784);
     line-height: rem;
     margin-top: 5rem;
 }
-/* .logo2{
-    content: url(/Images/joystick-xxl.png);
-    width: 3rem;
-    height: 3rem;
-    margin-top: 1.8rem;
-} */
-.Theme_heading{
+
+/* centring the subheadings h2 of the web page  */
+.container{
+    text-align: center;
+}
+
+/* style for all the subheadings h2 */
+.container h2{
     font-family: 'Archivo Black';
     color: rgba(215, 119, 224, 0.784);
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     line-height: 3rem;
     text-decoration: underline;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    margin-top: 0.3rem;
+    margin-bottom: 0.1rem;
 }
+
+/* setting the background image for the web page */
 body{
     background-image: url(./Images/back4.jpg);
     background-size: 100% 113rem;
 }
-.Themes{
+
+/* common styles for different sections of the webpage */
+.Rules-Regulations, .Game-Rules-And-Details, .Game-Schedule{
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     color:aliceblue;
-    margin: 2rem;
-    margin-top: 0;
-    padding: 4em;
-    padding-top: 3rem;
-    padding-bottom: 4rem;
+    margin: 0rem 2rem;
+    padding: 3rem 4rem;
     border: 0.5em solid #7d12ff ;
-    background: #000000;
-    background-color: transparent;
-    line-height: 3rem;
-    text-align: justify;
+    line-height: 2.5rem;
+    text-align: left;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    margin-bottom: 1rem;
 }
 
-.AllText{
-    text-align: center;
+.Game-Rules-And-Details li{
+    line-height: 2.2rem;
+    color: rgba(255, 255, 255, 0.784);
 }
-.Rules{
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color:aliceblue;
-    margin: 2rem;
-    margin-top: 0;
-    padding: 4em;
-    border: 0.5em solid #7d12ff ;
-    background: #000000;
-    background-color: transparent;
-    line-height: 2rem;
-    text-align: justify;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+.Game-Rules-And-Details h3{
+    color: rgb(184, 250, 250);
 }
-.Rules_heading{
-    font-family: 'Archivo Black';
-    color: rgba(215, 119, 224, 0.784);
-    font-size: 1.6rem;
-    line-height: 3rem;
-    text-decoration: underline;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+.Game-Schedule li{
+    color: rgb(248, 250, 184);
 }
-.Evaluation_Criteria_heading{
-    font-family: 'Archivo Black';
-    color: rgba(215, 119, 224, 0.784);
-    font-size: 1.6rem;
-    line-height: 3rem;
-    text-decoration: underline;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-}
-.Criteria{
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color:aliceblue;
-    margin: 2rem;
-    margin-top: 0;
-    padding: 4em;
-    border: 0.5em solid #7d12ff ;
-    background: #000000;
-    background-color: transparent;
-    line-height: 3rem;
-    text-align: justify;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-}
+
+/* syling the heading above the button */
 .Button_heading{
     font-family: 'Archivo Black';
-    color: rgba(215, 119, 224, 0.784);
+    color: rgba(157, 119, 224, 0.784);
     font-size: 2rem;
     line-height: 3rem;
     text-decoration: underline;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
+
+/* styling the button */
 button{
     padding: 1rem;
 }
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(184, 250, 250);
+    border-radius: 4px;
+}
+
+/* media queries to make responsive design for different screens */
 @media (min-width: 1201px)
 {
     html{
-        font-size: 95%;
+        font-size: 90%;
         }
 }
 /* For smaller laptops */
@@ -142,7 +129,7 @@ button{
 @media (max-width:768px) and (min-width: 481px)
 {
     html{
-        font-size: 35%;
+        font-size: 45%;
     }
 }
 @media (max-width:480px) and (min-width: 320px)
@@ -154,25 +141,15 @@ button{
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    .Themes{
+    .Rules-Regulations, .Game-Rules-And-Details, .Game-Schedule{
         font-size: 16px;
         line-height: 1.5rem;
-        text-align: center;
+        text-align: left;
         padding: 2em;
     }
-    .Rules{
-        font-size: 16px;
-        line-height: 1.5rem;
-        text-align: center;
-        padding: 2em;
-    }
-    .Criteria{
-        font-size: 16px;
-        line-height: 1.5rem;
-        text-align: center;
-        padding: 2em;
-    }
-    .Evaluation_Criteria_heading{
-        font-size: 1.8rem;
+
+    .Button_heading{
+        font-size: 1.6rem;
+        padding: 0rem 1rem;
     }
 }
